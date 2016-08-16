@@ -32,7 +32,7 @@
 - (IBAction)statusBarHiddenChanged:(UISwitch *)sender {
     
     self.statusBarHidden = sender.on;
-    [UIView animateWithDuration:2.0 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
         [self setNeedsStatusBarAppearanceUpdate];
     }];
 }
@@ -46,7 +46,7 @@
         self.statusBarStyle = UIStatusBarStyleDefault;
     }
     
-    [UIView animateWithDuration:2.0 animations:^{
+    [UIView animateWithDuration:1.0 animations:^{
         [self setNeedsStatusBarAppearanceUpdate];
     }];
     
