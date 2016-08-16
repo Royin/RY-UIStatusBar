@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  RY-UIStatusBar
+//  UIStatusBar
 //
-//  Created by user on 16/8/16.
+//  Created by user on 16/8/11.
 //  Copyright © 2016年 demo. All rights reserved.
 //
 
