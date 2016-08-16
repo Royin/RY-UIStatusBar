@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF86E941D631501007131E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF86E931D631501007131E0 /* main.m */; };
+		CEF86E971D631501007131E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF86E961D631501007131E0 /* AppDelegate.m */; };
+		CEF86E9A1D631501007131E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF86E991D631501007131E0 /* ViewController.m */; };
+		CEF86E9D1D631501007131E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF86E9B1D631501007131E0 /* Main.storyboard */; };
+		CEF86EA01D631501007131E0 /* RY_UIStatusBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEF86E9E1D631501007131E0 /* RY_UIStatusBar.xcdatamodeld */; };
+		CEF86EA21D631501007131E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF86EA11D631501007131E0 /* Assets.xcassets */; };
+		CEF86EA51D631501007131E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF86EA31D631501007131E0 /* LaunchScreen.storyboard */; };
+		CEF86EB01D631501007131E0 /* RY_UIStatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF86EAF1D631501007131E0 /* RY_UIStatusBarTests.m */; };
+		CEF86EBB1D631501007131E0 /* RY_UIStatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF86EBA1D631501007131E0 /* RY_UIStatusBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF86EAC1D631501007131E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF86E871D631501007131E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF86E8E1D631501007131E0;
+			remoteInfo = "RY-UIStatusBar";
+		};
+		CEF86EB71D631501007131E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF86E871D631501007131E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF86E8E1D631501007131E0;
+			remoteInfo = "RY-UIStatusBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF86E8F1D631501007131E0 /* RY-UIStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RY-UIStatusBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF86E931D631501007131E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF86E951D631501007131E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF86E961D631501007131E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF86E981D631501007131E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEF86E991D631501007131E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEF86E9C1D631501007131E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF86E9F1D631501007131E0 /* RY_UIStatusBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RY_UIStatusBar.xcdatamodel; sourceTree = "<group>"; };
+		CEF86EA11D631501007131E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF86EA41D631501007131E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF86EA61D631501007131E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF86EAB1D631501007131E0 /* RY-UIStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RY-UIStatusBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF86EAF1D631501007131E0 /* RY_UIStatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RY_UIStatusBarTests.m; sourceTree = "<group>"; };
+		CEF86EB11D631501007131E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF86EB61D631501007131E0 /* RY-UIStatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RY-UIStatusBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF86EBA1D631501007131E0 /* RY_UIStatusBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RY_UIStatusBarUITests.m; sourceTree = "<group>"; };
+		CEF86EBC1D631501007131E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF86E8C1D631501007131E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF86EA81D631501007131E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF86EB31D631501007131E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF86E861D631501007131E0 = {
+			isa = PBXGroup;
+			children = (
+				CEF86E911D631501007131E0 /* RY-UIStatusBar */,
+				CEF86EAE1D631501007131E0 /* RY-UIStatusBarTests */,
+				CEF86EB91D631501007131E0 /* RY-UIStatusBarUITests */,
+				CEF86E901D631501007131E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF86E901D631501007131E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF86E8F1D631501007131E0 /* RY-UIStatusBar.app */,
+				CEF86EAB1D631501007131E0 /* RY-UIStatusBarTests.xctest */,
+				CEF86EB61D631501007131E0 /* RY-UIStatusBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF86E911D631501007131E0 /* RY-UIStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				CEF86E951D631501007131E0 /* AppDelegate.h */,
+				CEF86E961D631501007131E0 /* AppDelegate.m */,
+				CEF86E981D631501007131E0 /* ViewController.h */,
+				CEF86E991D631501007131E0 /* ViewController.m */,
+				CEF86E9B1D631501007131E0 /* Main.storyboard */,
+				CEF86EA11D631501007131E0 /* Assets.xcassets */,
+				CEF86EA31D631501007131E0 /* LaunchScreen.storyboard */,
+				CEF86EA61D631501007131E0 /* Info.plist */,
+				CEF86E9E1D631501007131E0 /* RY_UIStatusBar.xcdatamodeld */,
+				CEF86E921D631501007131E0 /* Supporting Files */,
+			);
+			path = "RY-UIStatusBar";
+			sourceTree = "<group>";
+		};
+		CEF86E921D631501007131E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF86E931D631501007131E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF86EAE1D631501007131E0 /* RY-UIStatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF86EAF1D631501007131E0 /* RY_UIStatusBarTests.m */,
+				CEF86EB11D631501007131E0 /* Info.plist */,
+			);
+			path = "RY-UIStatusBarTests";
+			sourceTree = "<group>";
+		};
+		CEF86EB91D631501007131E0 /* RY-UIStatusBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF86EBA1D631501007131E0 /* RY_UIStatusBarUITests.m */,
+				CEF86EBC1D631501007131E0 /* Info.plist */,
+			);
+			path = "RY-UIStatusBarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF86E8E1D631501007131E0 /* RY-UIStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF86EBF1D631501007131E0 /* Build configuration list for PBXNativeTarget "RY-UIStatusBar" */;
+			buildPhases = (
+				CEF86E8B1D631501007131E0 /* Sources */,
+				CEF86E8C1D631501007131E0 /* Frameworks */,
+				CEF86E8D1D631501007131E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RY-UIStatusBar";
+			productName = "RY-UIStatusBar";
+			productReference = CEF86E8F1D631501007131E0 /* RY-UIStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF86EAA1D631501007131E0 /* RY-UIStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF86EC21D631501007131E0 /* Build configuration list for PBXNativeTarget "RY-UIStatusBarTests" */;
+			buildPhases = (
+				CEF86EA71D631501007131E0 /* Sources */,
+				CEF86EA81D631501007131E0 /* Frameworks */,
+				CEF86EA91D631501007131E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF86EAD1D631501007131E0 /* PBXTargetDependency */,
+			);
+			name = "RY-UIStatusBarTests";
+			productName = "RY-UIStatusBarTests";
+			productReference = CEF86EAB1D631501007131E0 /* RY-UIStatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF86EB51D631501007131E0 /* RY-UIStatusBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF86EC51D631501007131E0 /* Build configuration list for PBXNativeTarget "RY-UIStatusBarUITests" */;
+			buildPhases = (
+				CEF86EB21D631501007131E0 /* Sources */,
+				CEF86EB31D631501007131E0 /* Frameworks */,
+				CEF86EB41D631501007131E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF86EB81D631501007131E0 /* PBXTargetDependency */,
+			);
+			name = "RY-UIStatusBarUITests";
+			productName = "RY-UIStatusBarUITests";
+			productReference = CEF86EB61D631501007131E0 /* RY-UIStatusBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF86E871D631501007131E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = demo;
+				TargetAttributes = {
+					CEF86E8E1D631501007131E0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CEF86EAA1D631501007131E0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEF86E8E1D631501007131E0;
+					};
+					CEF86EB51D631501007131E0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEF86E8E1D631501007131E0;
+					};
+				};
+			};
+			buildConfigurationList = CEF86E8A1D631501007131E0 /* Build configuration list for PBXProject "RY-UIStatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF86E861D631501007131E0;
+			productRefGroup = CEF86E901D631501007131E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF86E8E1D631501007131E0 /* RY-UIStatusBar */,
+				CEF86EAA1D631501007131E0 /* RY-UIStatusBarTests */,
+				CEF86EB51D631501007131E0 /* RY-UIStatusBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF86E8D1D631501007131E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF86EA51D631501007131E0 /* LaunchScreen.storyboard in Resources */,
+				CEF86EA21D631501007131E0 /* Assets.xcassets in Resources */,
+				CEF86E9D1D631501007131E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF86EA91D631501007131E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF86EB41D631501007131E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF86E8B1D631501007131E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF86EA01D631501007131E0 /* RY_UIStatusBar.xcdatamodeld in Sources */,
+				CEF86E9A1D631501007131E0 /* ViewController.m in Sources */,
+				CEF86E971D631501007131E0 /* AppDelegate.m in Sources */,
+				CEF86E941D631501007131E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF86EA71D631501007131E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF86EB01D631501007131E0 /* RY_UIStatusBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF86EB21D631501007131E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF86EBB1D631501007131E0 /* RY_UIStatusBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF86EAD1D631501007131E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF86E8E1D631501007131E0 /* RY-UIStatusBar */;
+			targetProxy = CEF86EAC1D631501007131E0 /* PBXContainerItemProxy */;
+		};
+		CEF86EB81D631501007131E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF86E8E1D631501007131E0 /* RY-UIStatusBar */;
+			targetProxy = CEF86EB71D631501007131E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF86E9B1D631501007131E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF86E9C1D631501007131E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF86EA31D631501007131E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF86EA41D631501007131E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF86EBD1D631501007131E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF86EBE1D631501007131E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF86EC01D631501007131E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RY-UIStatusBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.RY-UIStatusBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEF86EC11D631501007131E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RY-UIStatusBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.RY-UIStatusBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEF86EC31D631501007131E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RY-UIStatusBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.RY-UIStatusBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RY-UIStatusBar.app/RY-UIStatusBar";
+			};
+			name = Debug;
+		};
+		CEF86EC41D631501007131E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RY-UIStatusBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.RY-UIStatusBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RY-UIStatusBar.app/RY-UIStatusBar";
+			};
+			name = Release;
+		};
+		CEF86EC61D631501007131E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RY-UIStatusBarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.RY-UIStatusBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RY-UIStatusBar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEF86EC71D631501007131E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RY-UIStatusBarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.RY-UIStatusBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RY-UIStatusBar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF86E8A1D631501007131E0 /* Build configuration list for PBXProject "RY-UIStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF86EBD1D631501007131E0 /* Debug */,
+				CEF86EBE1D631501007131E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF86EBF1D631501007131E0 /* Build configuration list for PBXNativeTarget "RY-UIStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF86EC01D631501007131E0 /* Debug */,
+				CEF86EC11D631501007131E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF86EC21D631501007131E0 /* Build configuration list for PBXNativeTarget "RY-UIStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF86EC31D631501007131E0 /* Debug */,
+				CEF86EC41D631501007131E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF86EC51D631501007131E0 /* Build configuration list for PBXNativeTarget "RY-UIStatusBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF86EC61D631501007131E0 /* Debug */,
+				CEF86EC71D631501007131E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEF86E9E1D631501007131E0 /* RY_UIStatusBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEF86E9F1D631501007131E0 /* RY_UIStatusBar.xcdatamodel */,
+			);
+			currentVersion = CEF86E9F1D631501007131E0 /* RY_UIStatusBar.xcdatamodel */;
+			path = RY_UIStatusBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEF86E871D631501007131E0 /* Project object */;
+}
